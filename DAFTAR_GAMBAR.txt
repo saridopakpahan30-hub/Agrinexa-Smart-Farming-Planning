@@ -1,0 +1,50 @@
+CARA MEMASUKKAN GAMBAR (singkat)
+--------------------------------
+1. Beri nama file persis seperti daftar di bawah (huruf kecil, tanpa spasi).
+   Contoh: kopi.png. Format yang dikenali: .png, .jpg, .jpeg, .webp
+2. Masukkan semua file ke folder:  assets/images/
+3. Hentikan aplikasi lalu jalankan ulang (F5). Hot reload tidak cukup.
+4. Tidak perlu mengubah kode maupun pubspec.yaml.
+
+DAFTAR NAMA FILE GAMBAR  (taruh semua di folder assets/images/)
+==============================================================
+Format .png (kecuali splash_bg.jpg). Jika file belum ada, aplikasi tetap
+jalan dan memakai emoji pengganti. Disarankan gambar persegi, minimal
+400x400 piksel.
+
+[ UMUM ]
+logo.png        logo daun Agrinexa
+splash_bg.jpg  latar layar splash (opsional)
+avatar.png      foto profil bawaan (opsional)
+
+[ TANAMAN (30) ]
+cabai.png             Cabai
+tomat.png             Tomat
+bawangmerah.png       Bawang Merah
+kentang.png           Kentang
+kubis.png             Kubis
+wortel.png            Wortel
+sawi.png              Sawi
+terong.png            Terong
+timun.png             Timun
+kacangpanjang.png     Kacang Panjang
+jagung.png            Jagung
+padi.png              Padi
+kedelai.png           Kedelai
+kacangtanah.png       Kacang Tanah
+ubijalar.png          Ubi Jalar
+singkong.png          Singkong
+semangka.png          Semangka
+melon.png             Melon
+pepaya.png            Pepaya
+pisang.png            Pisang
+nanas.png             Nanas
+kopi.png              Kopi
+kakao.png             Kakao
+karet.png             Karet
+sawit.png             Kelapa Sawit
+tebu.png              Tebu
+jahe.png              Jahe
+kunyit.png            Kunyit
+lada.png              Lada
+serai.png             Serai

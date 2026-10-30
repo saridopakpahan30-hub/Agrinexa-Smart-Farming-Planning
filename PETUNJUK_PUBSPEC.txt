@@ -1,0 +1,32 @@
+PERUBAHAN pubspec.yaml
+=======================
+Di bagian dependencies tambahkan (fl_chart sudah ada, pakai versi >= 0.60):
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.69.0          # biarkan versi Anda jika sudah ada
+  shared_preferences: ^2.3.0
+  crypto: ^3.0.3
+
+Di bagian flutter: tambahkan assets (folder harus ada, boleh kosong):
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+Nama file gambar yang dicari aplikasi (di assets/images/):
+  logo.png        logo daun Agrinexa
+  splash_bg.jpg   latar layar splash (opsional, kalau kosong dipakai pemandangan animasi)
+  avatar.png      foto profil bawaan (opsional, kalau kosong dipakai huruf inisial)
+  cabai.png
+  tomat.png
+  jagung.png
+
+Jika gambar belum ada, aplikasi tidak error: otomatis tampil emoji/ikon pengganti.
+
+
+
+--- UPDATE v3 (30 tanaman + Panduan Budidaya) ---
+pubspec.yaml TIDAK perlu diubah. Nama file gambar ada di DAFTAR_GAMBAR.txt.
